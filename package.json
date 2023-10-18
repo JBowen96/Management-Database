@@ -1,0 +1,28 @@
+{
+    "name": "Management-Database",
+    "version": "1.0.0",
+    "description": "A command-line application to manage an employee database",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/JBowen96/Management-Database.git"
+    },
+    "keywords": [
+        "node.js",
+        "inquirer",
+        "mysql"
+    ],
+    "author": "J Bowen",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/JBowen96/Management-Database"
+    },
+    "homepage": "https://github.com/JBowen96/Management-Database",
+    "dependencies": {
+        "inquirer": "^8.2.4",
+        "mysql2": "^2.3.3"
+    }
+}
