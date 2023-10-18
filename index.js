@@ -8,7 +8,7 @@ const db = mysql.createConnection({
     host: 'localhost',
     user: 'J',
     password: '1crappypassword',
-    multipleStatements: true,
+    multipleStatements: true, //this right here makes this code function correctly and was a thorn in my side
 });
 
 // Read the SQL scripts
@@ -305,3 +305,4 @@ var employee_tracker = function () {
         }
     })
 };
+//woohoo you reached the bottom. go get some ice cream!

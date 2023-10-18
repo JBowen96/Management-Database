@@ -1,4 +1,4 @@
-const mysql = require('mysql2');
+/* const mysql = require('mysql2');
 //require('dotenv').config();
 
 const db = mysql.createConnection({
@@ -10,4 +10,6 @@ const db = mysql.createConnection({
     database: 'employee_tracker_db'
 });
 
-module.exports = db;
+module.exports = db; */
+
+//this code served as a basis for the original index.js and is remaining for reference sake
